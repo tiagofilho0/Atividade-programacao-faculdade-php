@@ -1,0 +1,14 @@
+# Atividade-programacao-faculdade-php
+
+<?php
+
+
+for ($i=0; $i <36 ; $i++) { 
+ 
+   echo $i."<br>";
+    
+}
+
+
+
+?>
