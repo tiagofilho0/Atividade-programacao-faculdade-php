@@ -1,0 +1,20 @@
+# Atividade-programacao-faculdade-php
+
+<?php
+
+$nota1 = 3;
+$nota2 = 3;
+$nota3 = 3;
+
+$media = (($nota1 + $nota2 + $nota3) / 3);
+
+if($media >= 7){ echo "você passou!!!";}
+
+elseif (($media < 7) && ( $media >= 4 )) {echo "Você está na final"; }
+
+else {
+    echo "você reprovou";
+}
+
+
+?>
