@@ -1,0 +1,35 @@
+# Atividade-programacao-faculdade-php
+
+<?php
+
+echo "<h1>usando o for</h1>";
+                                    # ("<h1>"palavra"</h1>";)deixa a frase grande
+                                    # ("<br>";) quebra linha
+                                    # (echo) printa
+                                    # ($i) variavel
+for ($i=0; $i < 10 ; $i++) {      
+  
+    for ($j=0; $j < $i ; $j++) {
+      
+       echo "$i";
+    }
+ echo"<br>";
+ }
+
+ echo "<h1>usando o while</h1>";
+
+ $i = 0;
+while ($i < 10) {
+   
+    $a = 0;
+
+    while ($a < $i) {
+              echo"$i";
+$a++; }
+
+echo"<br>";  
+
+$i++;}
+
+
+?>
