@@ -1,0 +1,42 @@
+# Atividade-programacao-faculdade-php
+
+index.php
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <center>
+<form id = "formlogin" action="login.php" method = "POST">
+  login: <input type="text" name ="login"><br>
+  senha: <input type="password"  name ="senha"><br>
+         <input type="submit" name ="entrar" value ="entrar">
+</form>
+    </center> 
+</body> 
+</html>
+
+login.php
+
+<?php
+
+$login = $_POST['login'];
+$senha = $_POST['senha'];
+
+if ($login == "tiago" && $senha == "filho") {
+    echo "logado!!";
+    header('Location: principal.php');
+}
+else {
+    header('Location: index.php');
+}
+?>
+
+principal.php
+
+bem vindo
