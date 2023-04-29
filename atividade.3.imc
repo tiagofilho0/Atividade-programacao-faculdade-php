@@ -1,0 +1,16 @@
+# Atividade-programacao-faculdade-php
+
+<?php
+$altura = 1.69;
+$peso = 49.9;
+
+$imc = $peso / $altura**2;
+
+if($imc < 18.5){echo('Você está abaixo do peso');}
+
+elseif($imc < 24.9){echo('Você está no peso ideal');}
+
+elseif($imc < 30){echo('Você está acima do peso');}
+
+else{echo('Você está obeso');}
+?>
