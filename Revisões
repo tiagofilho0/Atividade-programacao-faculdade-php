@@ -1,0 +1,162 @@
+# Atividade-programacao-faculdade-php
+
+REVISÃO 1
+<?php
+
+$a = 5;
+$b = 10;
+$div = $b / 2;
+$soma = ($a + $b) * $div;
+
+echo $soma;
+echo("<br>");
+
+?>
+
+portugol -->
+
+variavel1 = 5
+variavel2 = 10
+
+resultado = (variavel1+variavel2)*(variavel2/2)
+
+escreva resultado
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+REVISÃO 2
+<?php
+
+$valor = 100;
+
+$porcentagem = ($valor * 0.15); // 100;
+
+echo $porcentagem;
+echo("<br>");
+
+?>
+
+portugol -->
+
+variavel1 = 100;
+
+$porcentagem = (variavel1 * 15) / 100
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+REVISÃO 3
+
+<?php
+
+$compra = 1200;
+
+$juros = ($compra*0.12);
+
+$total = $compra + $juros;
+
+$parcelas = $total / 12;
+
+echo $parcelas."<br>";
+echo $total;
+echo("<br>");
+?>
+
+portugol -->
+
+variavel1 = 1200;
+
+variavel2 = variavel1*0.12;
+
+variavel3 = variavel1 + variavel2;
+
+variavel4 = variavel3 / 12;
+
+escreva variavel4
+
+escreva variavel3
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+REVISÃO 4
+
+<?php
+
+$valor = 21000;
+
+$idade = $valor / 365;
+
+echo("<br>");
+echo number_format($idade);
+
+if ($idade >= 18) {
+   echo (' você é de maior');
+}
+ else{echo('você é de menor');
+}
+
+echo("<br>");
+
+?>
+
+portugol -->
+
+variavel1 = 21000;
+
+variavel2 = variavel1 / 365;
+
+escreva variavel2;
+
+se variavel2 >= 18 escreva 'você é de maior'
+
+senão escreva 'você é de menor'
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+REVISÃO 5
+
+<?php
+
+$valor = 3;
+
+for ($i=0; $i < $valor ; $i++) { 
+    echo ("<br>");
+   for ($a=0; $a <= $i ; $a++) { 
+    echo('FPB');
+   } 
+}
+
+echo("<br>");
+?>
+
+portugol -->
+
+valor = 3
+
+para ( i=0; i < valor ; i++){
+    escreva "<br>"
+    para ( J=0; J < i ; j++){
+        escreva FPB
+  }
+
+
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+REVISÃO 6
+
+<?php
+
+$a = 10;
+$b = 15;
+$c = 20;
+$d = 25;
+
+$cd = $c + $d;
+
+$ab = $a + $b;
+
+if ($b > $c and $d > $a and $cd > $ab and $c > 0 and $d > 0 and $a > 0) {
+  echo('valores aceitos');
+}
+
+else ('valores não aceitos')
+
+?>
+
+-----------------------------------------------------------------------------------------------------------------------------------------
